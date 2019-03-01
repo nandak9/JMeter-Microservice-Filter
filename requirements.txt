@@ -1,0 +1,7 @@
+Flask
+Flask-Cors
+requests
+pymongo
+python-consul
+gunicorn
+elastic-apm
