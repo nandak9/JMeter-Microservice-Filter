@@ -101,23 +101,3 @@ python services.py
 ```
 e.g http://<MACHINE-IP>/perfservice/performance_report_filter
 ```
-### Architechture
-![Scheme](perfservice.JPG)
-
-##### Flask
-Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself.
-http://flask.pocoo.org/docs/1.0/quickstart/
-
-
-##### Gunicorn
-The Gunicorn "Green Unicorn" (pronounced gee-unicorn)[2] is a Python Web Server Gateway Interface (WSGI) HTTP server. 
-
-###### Features
-* Natively supports [WSGI] (https://wsgi.readthedocs.io/en/latest/what.html) , [web2py] (http://www.web2py.com/) and [Django] (https://www.djangoproject.com/).
-* Automatic worker process management
-* Simple Python configuration
-* Multiple worker configurations
-* Various server hooks for extensibility
-* Compatible with Python 2.6+ and Python 3.2+[4]
-http://docs.gunicorn.org/en/stable/configure.html
-
